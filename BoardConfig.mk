@@ -215,11 +215,6 @@ TARGET_USES_INTERACTION_BOOST := true
 TARGET_INIT_VENDOR_LIB := libinit_lenovo_tb8504
 TARGET_RECOVERY_DEVICE_MODULES := libinit_lenovo_tb8504
 
-# RIL
-TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
-TARGET_RIL_VARIANT := caf
-TARGET_USES_OLD_MNC_FORMAT := true
-
 # SELinux
 SELINUX_IGNORE_NEVERALLOWS := false
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
