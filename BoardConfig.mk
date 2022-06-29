@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/lenovo/TB8504
+DEVICE_PATH := device/lenovo/TB8504F
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := TB-8504X,TB-8504F,tb-8504x,tb-8504f,tb_8504
@@ -229,4 +229,4 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 
 # Inherit from the proprietary version
-include vendor/lenovo/TB8504/BoardConfigVendor.mk
+include vendor/lenovo/TB8504F/BoardConfigVendor.mk

@@ -413,4 +413,4 @@ PRODUCT_COPY_FILES += \
 -include $(LOCAL_PATH)/vendor_prop.mk
 
 # Call the proprietary setup
-$(call inherit-product, vendor/lenovo/TB8504/TB8504-vendor.mk)
+$(call inherit-product, vendor/lenovo/TB8504F/TB8504F-vendor.mk)

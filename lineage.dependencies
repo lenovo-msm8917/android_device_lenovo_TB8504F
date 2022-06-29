@@ -3,6 +3,10 @@
     "repository": "vendor_lenovo_TB8504",
     "target_path": "vendor/lenovo/TB8504"
   },
+    {
+    "repository": "device_lenovo_TB8504-common",
+    "target_path": "device/lenovo/TB8504-common"
+  },
   {
     "repository": "kernel_lenovo_msm8917",
     "target_path": "kernel_lenovo_msm8917"
