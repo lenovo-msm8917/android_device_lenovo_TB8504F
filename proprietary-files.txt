@@ -230,10 +230,14 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so|5761eae471e8dcd94ce139e831a1aa5b23
 etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
 etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 vendor/bin/irsc_util|3966b101150b54078b3e004212122a24f3fa0d82
+vendor/bin/rmt_storage|68113b986cef176c9d808fb7fb870ed61d4846bd
+vendor/bin/tftp_server|05a9c0e0e691e534e703bded4a99083d25a26ebb
+vendor/etc/data/dsi_config.xml|f4861831fcb21d43e2a9ca12519155ebb8ac1407
 vendor/lib/libdiag.so|5b7fe4d15ab64af813827020166474c3b77591ef
 vendor/lib/libdsi_netctrl.so|78206e2c94d0a9ceb69712aeec99ed90f8fc63b3
 vendor/lib/libdsutils.so|bfc2e8fb927ccd35158ceaf4389fe54186091132
 vendor/lib/libidl.so|6fe7c2a4e4ec0ac099a6306c3111e6497e2c501f
+vendor/lib/libmdmdetect.so|11faf5c9ac48284dfe3a965d8a2309014d81a68d
 vendor/lib/libqdi.so|6cb8c78aaa70a5fa9b83e260556bada097ca0d14
 vendor/lib/libqdp.so|ff0b9d7d1a72fc884264ca0487540c75af5b6c6a
 vendor/lib/libqmi.so|0b035dd37319391f27ce6647e707f4e7afaacec0
@@ -243,10 +247,15 @@ vendor/lib/libqmi_common_so.so|873e94bc4a028ad396f947efde042b4a26d28f63
 vendor/lib/libqmi_csi.so|faebc6bab9491a7287332aa87d7ba178fffd348c
 vendor/lib/libqmi_encdec.so|a6f46ac31fa48fbc0d406895b69e5239a1650ce5
 vendor/lib/libqmiservices.so|dcff643662bb3e36c2bcfcb831bffec057038c6f
+vendor/lib64/libconfigdb.so|1fa77478a72cf4152c1027fd40ee9a58a0ba89aa
 vendor/lib64/libdiag.so|4db001ef0168a5930b250f6cd917525df933827a
 vendor/lib64/libdsi_netctrl.so|3022d69494ad5b9400ed7188b72dc2d72dff9e24
 vendor/lib64/libdsutils.so|fe909f54243f07fc76382b0839f95f96e1abfef2
 vendor/lib64/libidl.so|3b1a7ca55ccfe06d12d62f2c214b5ac2ee0e69da
+vendor/lib64/libmdmdetect.so|d7ed6b7ad34ec0e94a24d562f418ba9bc9de99b3
+vendor/lib64/libnetmgr.so|6265bfdff5b5251a6c4823b835fc1c572de00728
+vendor/lib64/libnetmgr_common.so|46b5613d6b31ba32d3202dbfe9a2dbfef512fe6c
+vendor/lib64/libqcmaputils.so|3a542dfda06a2c5824ba505ff7d03f920a5eaf43
 vendor/lib64/libqdi.so|5e14939265c9f30c59f4a7964bf83da69ecfa38d
 vendor/lib64/libqdp.so|485c40c20d4421b5b2a1e2e87555c566f49ea944
 vendor/lib64/libqmi.so|f814a152f974b2305f74f90a4f1c0a20989fb253
@@ -256,10 +265,12 @@ vendor/lib64/libqmi_common_so.so|aa27730010968b2e05e3e46684cdf193738c2c8e
 vendor/lib64/libqmi_csi.so|5e3d7a6c18f10c30d152bd87cd24b0c787f6ded3
 vendor/lib64/libqmi_encdec.so|68fb631317150d66fd1a39c48f8ef9e0405bbdf2
 vendor/lib64/libqmiservices.so|842a1b61fad7dd34753e945ee2ada0fdc9589c09
+vendor/lib64/libqrtr.so|83676274fde1056a0507b4100a3a5423f5af5021
+vendor/lib64/libqsocket.so|3799e723be152c31c270f93a64e2865c0d9e86c4
 
 # QMI (shared dependencies) - from daisy - QKQ1.191002.002
-vendor/lib64/libqmi_cci.so|411a074dc765fb263bec50531ce5c408dd72388f
 vendor/lib/libqmi_cci.so|a921e84ec500f7cfb7fe88a4ffba149581410a44
+vendor/lib64/libqmi_cci.so|411a074dc765fb263bec50531ce5c408dd72388f
 
 # Sensors
 vendor/bin/sensors.qti
