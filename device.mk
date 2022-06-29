@@ -23,7 +23,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/lenovo/TB8504/TB8504-vendor.mk)
+$(call inherit-product, vendor/lenovo/TB8504F/TB8504F-vendor.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -40,5 +40,5 @@ PRODUCT_COPY_FILES += \
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
-# Inherit from tb-common
-$(call inherit-product, device/lenovo/tb-common/tb.mk)
+# Inherit from msm8937-common
+$(call inherit-product, device/lenovo/msm8937-common/msm8937.mk)
